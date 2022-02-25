@@ -25,5 +25,10 @@ const RecipeSchema = new Schema({
         trim:true,
         required:"Recipe name is required"
     },
+    imageURL:{
+        type:String,
+        trim:true
+    }
+    
 
 })
